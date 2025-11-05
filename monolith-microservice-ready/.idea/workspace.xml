@@ -5,31 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ccc3896-7820-4d7f-bc76-b253c2cfa002" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/borrow/borrow-controller/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/borrow/borrow-controller/src/main/java/org/nom_entreprise/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/borrow/borrow-database/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/borrow/borrow-database/src/main/java/org/nom_entreprise/borrow_database/test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/borrow/borrow-domain/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/borrow/borrow-domain/src/main/java/org/nom_entreprise/borrow_domain/test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/catalog-controller/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/catalog-controller/src/main/java/org/nom_entreprise/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/catalog-database/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/catalog-database/src/main/java/org/nom_entreprise/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/catalog-domain/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/catalog-domain/src/main/java/org/nom_entreprise/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-launcher/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-launcher/src/main/java/org/nom_entreprise/ms_launcher/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/private-rest-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/private-rest-client/src/main/java/org/nom_entreprise/private_rest_client/test" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -55,7 +48,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "jdk.selected.JAVA_MODULE": "21"
+    "jdk.selected.JAVA_MODULE": "17"
   }
 }]]></component>
   <component name="RecentsManager">

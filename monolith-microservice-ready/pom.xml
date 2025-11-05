@@ -17,6 +17,7 @@
 
     <modules>
         <module>common</module>
+        <module>private-rest-client</module>
         <module>ms-launcher</module>
         <module>borrow/borrow-controller</module>
         <module>borrow/borrow-domain</module>

@@ -10,6 +10,7 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
         </processorPath>
         <module name="borrow-controller" />
+        <module name="private-rest-client" />
         <module name="ms-launcher" />
         <module name="borrow-domain" />
         <module name="common" />
@@ -30,6 +31,7 @@
       <module name="catalog-domain" options="-parameters" />
       <module name="common" options="-parameters" />
       <module name="ms-launcher" options="-parameters" />
+      <module name="private-rest-client" options="-parameters" />
     </option>
   </component>
 </project>
