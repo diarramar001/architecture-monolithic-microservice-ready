@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5ccc3896-7820-4d7f-bc76-b253c2cfa002" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/borrow/borrow-controller/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/borrow/borrow-controller/src/main/java/org/nom_entreprise/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/borrow/borrow-database/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/borrow/borrow-database/src/main/java/org/nom_entreprise/borrow_database/test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/borrow/borrow-domain/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/borrow/borrow-domain/src/main/java/org/nom_entreprise/borrow_domain/test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/catalog-controller/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/catalog-controller/src/main/java/org/nom_entreprise/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/catalog-database/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/catalog-database/src/main/java/org/nom_entreprise/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/catalog-domain/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/catalog-domain/src/main/java/org/nom_entreprise/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-launcher/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-launcher/src/main/java/org/nom_entreprise/ms_launcher/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="353W9DrVJQ4bNgFhqvGIVpR3UQL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "21"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\a.diarrassouba.oaci\Documents\architecture-monolithic-microservice-ready\monolith-microservice-ready\catalog" />
+      <recent name="C:\Users\a.diarrassouba.oaci\Documents\architecture-monolithic-microservice-ready\monolith-microservice-ready\borrow" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ccc3896-7820-4d7f-bc76-b253c2cfa002" name="Changes" comment="" />
+      <created>1762339087882</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1762339087882</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

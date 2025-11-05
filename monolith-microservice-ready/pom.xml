@@ -17,6 +17,13 @@
 
     <modules>
         <module>common</module>
+        <module>ms-launcher</module>
+        <module>borrow/borrow-controller</module>
+        <module>borrow/borrow-domain</module>
+        <module>borrow/borrow-database</module>
+        <module>catalog/catalog-controller</module>
+        <module>catalog/catalog-domain</module>
+        <module>catalog/catalog-database</module>
     </modules>
 
     <properties>
@@ -84,6 +91,20 @@
             <artifactId>caffeine</artifactId>
             <version>3.1.8</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jdbc</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+        </dependency>
+
 
     </dependencies>
 

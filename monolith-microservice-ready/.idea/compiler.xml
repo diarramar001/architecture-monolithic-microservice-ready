@@ -2,11 +2,6 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-      </profile>
       <profile name="Annotation profile for monolith-microservice-ready" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -14,13 +9,27 @@
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
         </processorPath>
+        <module name="borrow-controller" />
+        <module name="ms-launcher" />
+        <module name="borrow-domain" />
         <module name="common" />
+        <module name="catalog-database" />
+        <module name="catalog-domain" />
+        <module name="borrow-database" />
+        <module name="catalog-controller" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="borrow-controller" options="-parameters" />
+      <module name="borrow-database" options="-parameters" />
+      <module name="borrow-domain" options="-parameters" />
+      <module name="catalog-controller" options="-parameters" />
+      <module name="catalog-database" options="-parameters" />
+      <module name="catalog-domain" options="-parameters" />
       <module name="common" options="-parameters" />
+      <module name="ms-launcher" options="-parameters" />
     </option>
   </component>
 </project>
