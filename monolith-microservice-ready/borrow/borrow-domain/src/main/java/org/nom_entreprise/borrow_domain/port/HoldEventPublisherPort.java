@@ -15,11 +15,4 @@ public interface HoldEventPublisherPort {
         return hold;
     }
 
-//    void bookCheckedOut(Checkout.BookCheckedOut event);
-//
-//    default Checkout bookCheckedOut(Checkout checkout) {
-//        Checkout.BookCheckedOut event = new Checkout.BookCheckedOut(checkout);
-//        this.bookCheckedOut(event);
-//        return checkout;
-//    }
 }

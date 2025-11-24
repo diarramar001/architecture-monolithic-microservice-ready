@@ -5,29 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ccc3896-7820-4d7f-bc76-b253c2cfa002" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/borrow/borrow-domain/src/main/java/org/nom_entreprise/borrow_domain/dto/HoldDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/borrow/borrow-domain/src/main/java/org/nom_entreprise/borrow_domain/event/BookAddedToCatalog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/borrow/borrow-domain/src/main/java/org/nom_entreprise/borrow_domain/event/BookPlacedOnHold.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/borrow/borrow-domain/src/main/java/org/nom_entreprise/borrow_domain/model/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/borrow/borrow-domain/src/main/java/org/nom_entreprise/borrow_domain/model/Hold.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/borrow/borrow-domain/src/main/java/org/nom_entreprise/borrow_domain/port/BookRepositoryPort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/borrow/borrow-domain/src/main/java/org/nom_entreprise/borrow_domain/port/HoldEventPublisherPort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/borrow/borrow-domain/src/main/java/org/nom_entreprise/borrow_domain/port/HoldRepositoryPort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/borrow/borrow-domain/src/main/java/org/nom_entreprise/borrow_domain/service/CirculationDesk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/catalog-domain/src/main/java/org/nom_entreprise/catalog_domain/dto/BookDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/catalog-domain/src/main/java/org/nom_entreprise/catalog_domain/event/BookAddedToCatalog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/catalog-domain/src/main/java/org/nom_entreprise/catalog_domain/mapper/BookMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/catalog-domain/src/main/java/org/nom_entreprise/catalog_domain/port/CatalogRepositoryPort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/catalog-domain/src/main/java/org/nom_entreprise/catalog_domain/service/CatalogManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-launcher/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/borrow/borrow-database/src/main/java/org/nom_entreprise/borrow_database/model/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/borrow/borrow-database/src/main/java/org/nom_entreprise/borrow_database/model/HoldDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/borrow/borrow-domain/src/main/java/org/nom_entreprise/borrow_domain/test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/catalog-domain/src/main/java/org/nom_entreprise/catalog_domain/model/BookDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/catalog-domain/src/main/java/org/nom_entreprise/catalog_domain/model/CatalogBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/catalog-domain/src/main/java/org/nom_entreprise/catalog_domain/model/CatalogBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-launcher/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-launcher/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/borrow/borrow-database/src/main/java/org/nom_entreprise/borrow_database/test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/borrow/borrow-domain/src/main/java/org/nom_entreprise/borrow_domain/port/HoldEventPublisherPort.java" beforeDir="false" afterPath="$PROJECT_DIR$/borrow/borrow-domain/src/main/java/org/nom_entreprise/borrow_domain/port/HoldEventPublisherPort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/catalog-database/src/main/java/org/nom_entreprise/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
