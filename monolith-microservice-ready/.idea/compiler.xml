@@ -9,13 +9,13 @@
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
         </processorPath>
-        <module name="borrow-controller" />
         <module name="private-rest-client" />
-        <module name="ms-launcher" />
+        <module name="borrow-controller" />
         <module name="borrow-domain" />
+        <module name="ms-launcher" />
         <module name="common" />
-        <module name="catalog-database" />
         <module name="catalog-domain" />
+        <module name="catalog-database" />
         <module name="borrow-database" />
         <module name="catalog-controller" />
       </profile>
