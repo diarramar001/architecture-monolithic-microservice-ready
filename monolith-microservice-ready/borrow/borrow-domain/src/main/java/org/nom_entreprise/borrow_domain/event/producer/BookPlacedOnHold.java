@@ -1,4 +1,4 @@
-package org.nom_entreprise.borrow_domain.event;
+package org.nom_entreprise.borrow_domain.event.producer;
 
 import org.jmolecules.event.annotation.DomainEvent;
 

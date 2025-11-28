@@ -1,7 +1,7 @@
 package org.nom_entreprise.borrow_domain.port;
 
 import org.jmolecules.architecture.hexagonal.SecondaryPort;
-import org.nom_entreprise.borrow_domain.event.BookPlacedOnHold;
+import org.nom_entreprise.borrow_domain.event.producer.BookPlacedOnHold;
 import org.nom_entreprise.borrow_domain.model.Hold;
 
 @SecondaryPort

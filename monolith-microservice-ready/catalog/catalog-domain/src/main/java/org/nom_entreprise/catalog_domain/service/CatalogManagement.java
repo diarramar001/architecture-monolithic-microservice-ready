@@ -1,6 +1,6 @@
 package org.nom_entreprise.catalog_domain.service;
 
-import org.nom_entreprise.catalog_domain.event.BookAddedToCatalog;
+import org.nom_entreprise.catalog_domain.event.procuder.BookAddedToCatalog;
 import org.nom_entreprise.catalog_domain.mapper.BookMapper;
 import org.nom_entreprise.catalog_domain.dto.BookDto;
 import org.nom_entreprise.catalog_domain.model.CatalogBook;

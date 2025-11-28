@@ -9,7 +9,7 @@ import java.time.LocalDate;
 @Getter
 @Setter
 @Entity
-@Table(name = "borrow_hold")
+@Table(name = "brw_hold")
 public class HoldDao {
     @Id
     private String id;

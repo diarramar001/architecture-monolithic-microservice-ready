@@ -2,8 +2,8 @@ package org.nom_entreprise.borrow_domain.service;
 
 import org.jmolecules.architecture.hexagonal.Port;
 import org.nom_entreprise.borrow_domain.dto.HoldDto;
-import org.nom_entreprise.borrow_domain.event.BookAddedToCatalog;
-import org.nom_entreprise.borrow_domain.event.BookPlacedOnHold;
+import org.nom_entreprise.borrow_domain.event.consumer.BookAddedToCatalog;
+import org.nom_entreprise.borrow_domain.event.producer.BookPlacedOnHold;
 import org.nom_entreprise.borrow_domain.model.Book;
 import org.nom_entreprise.borrow_domain.model.Hold;
 import org.nom_entreprise.borrow_domain.port.BookRepositoryPort;

@@ -9,7 +9,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-@Table(name = "borrow_book")
+@Table(name = "brw_book")
 public class BookDao {
     @Id
     private String id;
