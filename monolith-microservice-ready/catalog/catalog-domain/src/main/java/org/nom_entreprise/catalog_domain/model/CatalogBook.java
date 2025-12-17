@@ -3,12 +3,15 @@ package org.nom_entreprise.catalog_domain.model;
 import lombok.Getter;
 import lombok.Setter;
 import org.jmolecules.ddd.annotation.AggregateRoot;
+import org.jmolecules.ddd.types.Identifier;
+
+import java.util.UUID;
 
 @AggregateRoot
 @Getter
 @Setter
 public class CatalogBook {
-    private Long id;
+    private CatalogBookId id;
     private String title;
     private Barcode catalogNumber;
     private String isbn;
@@ -27,4 +30,9 @@ public class CatalogBook {
 
     public record Author(String name) {
     }
+
+
+    public record CatalogBookId(UUID id) implements Identifier {
+    }
+
 }

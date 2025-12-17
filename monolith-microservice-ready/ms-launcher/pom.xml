@@ -29,7 +29,7 @@
         </dependency>
         <dependency>
             <groupId>org.nom_entreprise</groupId>
-            <artifactId>borrow-database</artifactId>
+            <artifactId>borrow-infrastructure</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
@@ -45,8 +45,14 @@
         </dependency>
         <dependency>
             <groupId>org.nom_entreprise</groupId>
-            <artifactId>catalog-database</artifactId>
+            <artifactId>catalog-infrastructure</artifactId>
             <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+            <version>2.2.0</version>
         </dependency>
 
     </dependencies>

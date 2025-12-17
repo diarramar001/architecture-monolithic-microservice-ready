@@ -1,0 +1,11 @@
+C:\Users\a.diarrassouba.oaci\Documents\architecture-monolithic-microservice-ready\monolith-microservice-ready\borrow\borrow-domain\src\main\java\org\nom_entreprise\borrow_domain\service\CirculationDeskServiceImpl.java
+C:\Users\a.diarrassouba.oaci\Documents\architecture-monolithic-microservice-ready\monolith-microservice-ready\borrow\borrow-domain\src\main\java\org\nom_entreprise\borrow_domain\port\out\HoldEventPublisherPort.java
+C:\Users\a.diarrassouba.oaci\Documents\architecture-monolithic-microservice-ready\monolith-microservice-ready\borrow\borrow-domain\src\main\java\org\nom_entreprise\borrow_domain\dto\HoldDto.java
+C:\Users\a.diarrassouba.oaci\Documents\architecture-monolithic-microservice-ready\monolith-microservice-ready\borrow\borrow-domain\src\main\java\org\nom_entreprise\borrow_domain\event\producer\BookPlacedOnHold.java
+C:\Users\a.diarrassouba.oaci\Documents\architecture-monolithic-microservice-ready\monolith-microservice-ready\borrow\borrow-domain\src\main\java\org\nom_entreprise\borrow_domain\event\consumer\BookAddedToCatalog.java
+C:\Users\a.diarrassouba.oaci\Documents\architecture-monolithic-microservice-ready\monolith-microservice-ready\borrow\borrow-domain\src\main\java\org\nom_entreprise\borrow_domain\port\out\BookPersistencePort.java
+C:\Users\a.diarrassouba.oaci\Documents\architecture-monolithic-microservice-ready\monolith-microservice-ready\borrow\borrow-domain\src\main\java\org\nom_entreprise\borrow_domain\model\Book.java
+C:\Users\a.diarrassouba.oaci\Documents\architecture-monolithic-microservice-ready\monolith-microservice-ready\borrow\borrow-domain\src\main\java\org\nom_entreprise\borrow_domain\dto\BookDto.java
+C:\Users\a.diarrassouba.oaci\Documents\architecture-monolithic-microservice-ready\monolith-microservice-ready\borrow\borrow-domain\src\main\java\org\nom_entreprise\borrow_domain\port\in\CirculationDeskServicePort.java
+C:\Users\a.diarrassouba.oaci\Documents\architecture-monolithic-microservice-ready\monolith-microservice-ready\borrow\borrow-domain\src\main\java\org\nom_entreprise\borrow_domain\model\Hold.java
+C:\Users\a.diarrassouba.oaci\Documents\architecture-monolithic-microservice-ready\monolith-microservice-ready\borrow\borrow-domain\src\main\java\org\nom_entreprise\borrow_domain\port\out\HoldPersistencePort.java

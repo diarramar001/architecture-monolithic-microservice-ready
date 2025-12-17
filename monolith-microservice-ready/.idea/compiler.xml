@@ -8,15 +8,18 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
         </processorPath>
-        <module name="borrow-controller" />
         <module name="private-rest-client" />
+        <module name="borrow-controller" />
         <module name="borrow-domain" />
         <module name="ms-launcher" />
         <module name="common" />
-        <module name="catalog-database" />
         <module name="catalog-domain" />
-        <module name="borrow-database" />
+        <module name="borrow-infrastructure" />
+        <module name="catalog-infrastructure" />
         <module name="catalog-controller" />
       </profile>
     </annotationProcessing>
@@ -24,11 +27,11 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="borrow-controller" options="-parameters" />
-      <module name="borrow-database" options="-parameters" />
       <module name="borrow-domain" options="-parameters" />
+      <module name="borrow-infrastructure" options="-parameters" />
       <module name="catalog-controller" options="-parameters" />
-      <module name="catalog-database" options="-parameters" />
       <module name="catalog-domain" options="-parameters" />
+      <module name="catalog-infrastructure" options="-parameters" />
       <module name="common" options="-parameters" />
       <module name="ms-launcher" options="-parameters" />
       <module name="private-rest-client" options="-parameters" />
