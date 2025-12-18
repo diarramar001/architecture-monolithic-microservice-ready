@@ -1,7 +1,0 @@
-C:\Users\a.diarrassouba.oaci\Documents\architecture-monolithic-microservice-ready\monolith-microservice-ready\catalog\catalog-domain\src\main\java\org\nom_entreprise\catalog_domain\port\out\CatalogBookPersistencePort.java
-C:\Users\a.diarrassouba.oaci\Documents\architecture-monolithic-microservice-ready\monolith-microservice-ready\catalog\catalog-domain\src\main\java\org\nom_entreprise\catalog_domain\service\CatalogBookServiceImpl.java
-C:\Users\a.diarrassouba.oaci\Documents\architecture-monolithic-microservice-ready\monolith-microservice-ready\catalog\catalog-domain\src\main\java\org\nom_entreprise\catalog_domain\model\CatalogBook.java
-C:\Users\a.diarrassouba.oaci\Documents\architecture-monolithic-microservice-ready\monolith-microservice-ready\catalog\catalog-domain\src\main\java\org\nom_entreprise\catalog_domain\port\in\CatalogBookServicePort.java
-C:\Users\a.diarrassouba.oaci\Documents\architecture-monolithic-microservice-ready\monolith-microservice-ready\catalog\catalog-domain\src\main\java\org\nom_entreprise\catalog_domain\dto\BookDto.java
-C:\Users\a.diarrassouba.oaci\Documents\architecture-monolithic-microservice-ready\monolith-microservice-ready\catalog\catalog-domain\src\main\java\org\nom_entreprise\catalog_domain\event\procuder\BookAddedToCatalog.java
-C:\Users\a.diarrassouba.oaci\Documents\architecture-monolithic-microservice-ready\monolith-microservice-ready\catalog\catalog-domain\src\main\java\org\nom_entreprise\catalog_domain\mapper\BookMapper.java

@@ -1,9 +1,0 @@
-org\nom_entreprise\borrow_infrastructure\events\BorrowEventsPublisher.class
-org\nom_entreprise\borrow_infrastructure\database\adapter\HoldAdapter.class
-org\nom_entreprise\borrow_infrastructure\database\model\BookDao.class
-org\nom_entreprise\borrow_infrastructure\database\repository\HoldRepository.class
-org\nom_entreprise\borrow_infrastructure\database\adapter\BookAdapter.class
-org\nom_entreprise\borrow_infrastructure\database\model\HoldDao$HoldStatus.class
-org\nom_entreprise\borrow_infrastructure\database\model\HoldDao.class
-org\nom_entreprise\borrow_infrastructure\database\repository\BookRepository.class
-org\nom_entreprise\borrow_infrastructure\database\model\BookDao$BookStatus.class

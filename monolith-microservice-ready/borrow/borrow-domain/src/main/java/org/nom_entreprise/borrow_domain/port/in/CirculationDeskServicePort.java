@@ -1,8 +1,8 @@
 package org.nom_entreprise.borrow_domain.port.in;
 
 import org.nom_entreprise.borrow_domain.dto.HoldDto;
-import org.nom_entreprise.borrow_domain.event.consumer.BookAddedToCatalog;
-import org.nom_entreprise.borrow_domain.event.producer.BookPlacedOnHold;
+import org.nom_entreprise.common.event.BookAddedToCatalog;
+import org.nom_entreprise.common.event.BookPlacedOnHold;
 import org.nom_entreprise.borrow_domain.model.Hold;
 
 import java.util.Optional;

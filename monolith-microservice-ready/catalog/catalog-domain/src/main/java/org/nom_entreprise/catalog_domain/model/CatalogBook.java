@@ -19,6 +19,7 @@ public class CatalogBook {
     private Long version;
 
     public CatalogBook(String title, Barcode catalogNumber, String isbn, Author author) {
+        this.id = new CatalogBookId(UUID.randomUUID());
         this.title = title;
         this.catalogNumber = catalogNumber;
         this.isbn = isbn;

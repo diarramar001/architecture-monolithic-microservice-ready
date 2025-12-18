@@ -2,7 +2,7 @@ package org.nom_entreprise.borrow_infrastructure.events;
 
 import lombok.RequiredArgsConstructor;
 import org.jmolecules.architecture.hexagonal.SecondaryAdapter;
-import org.nom_entreprise.borrow_domain.event.producer.BookPlacedOnHold;
+import org.nom_entreprise.common.event.BookPlacedOnHold;
 import org.nom_entreprise.borrow_domain.port.out.HoldEventPublisherPort;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Component;
