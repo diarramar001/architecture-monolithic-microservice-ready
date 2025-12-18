@@ -1,4 +1,4 @@
-package org.nom_entreprise.common;
+package org.nom_entreprise.common.helper;
 
 import java.time.Instant;
 import java.time.LocalDateTime;

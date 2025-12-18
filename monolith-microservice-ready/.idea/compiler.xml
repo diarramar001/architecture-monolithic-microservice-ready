@@ -14,8 +14,8 @@
         </processorPath>
         <module name="private-rest-client" />
         <module name="borrow-controller" />
-        <module name="borrow-domain" />
         <module name="ms-launcher" />
+        <module name="borrow-domain" />
         <module name="common" />
         <module name="catalog-domain" />
         <module name="borrow-infrastructure" />
