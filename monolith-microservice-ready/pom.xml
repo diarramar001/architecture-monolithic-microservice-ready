@@ -16,8 +16,9 @@
     </parent>
 
     <modules>
-        <module>common</module>
-        <module>private-rest-client</module>
+        <module>shared/common</module>
+        <module>shared/private-rest-client</module>
+        <module>shared/keycloak-rest-client</module>
         <module>ms-launcher</module>
         <module>borrow/borrow-controller</module>
         <module>borrow/borrow-domain</module>

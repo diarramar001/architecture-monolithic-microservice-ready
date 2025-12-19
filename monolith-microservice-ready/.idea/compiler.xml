@@ -14,6 +14,7 @@
         </processorPath>
         <module name="private-rest-client" />
         <module name="borrow-controller" />
+        <module name="keycloak-rest-client" />
         <module name="ms-launcher" />
         <module name="borrow-domain" />
         <module name="common" />
@@ -35,6 +36,7 @@
       <module name="catalog-infrastructure" options="-parameters" />
       <module name="common" options="-parameters" />
       <module name="identity-domain" options="-parameters" />
+      <module name="keycloak-rest-client" options="-parameters" />
       <module name="ms-launcher" options="-parameters" />
       <module name="private-rest-client" options="-parameters" />
     </option>
