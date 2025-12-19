@@ -18,7 +18,7 @@ public class BookDao {
     @Enumerated(EnumType.STRING)
     private BookStatus status;
 
-    enum BookStatus {
+    public enum BookStatus {
         AVAILABLE, ON_HOLD, ISSUED
     }
 }

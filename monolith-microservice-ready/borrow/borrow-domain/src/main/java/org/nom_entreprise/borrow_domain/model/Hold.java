@@ -1,5 +1,6 @@
 package org.nom_entreprise.borrow_domain.model;
 
+import lombok.Setter;
 import org.jmolecules.ddd.types.Identifier;
 
 import java.time.LocalDate;
@@ -8,17 +9,21 @@ import java.util.function.UnaryOperator;
 
 import lombok.Getter;
 
+@Setter
 @Getter
 public class Hold {
 
-    private final HoldId id;
-    private final Book.Barcode onBook;
-    private final LocalDate dateOfHold;
+    private HoldId id;
+    private Book.Barcode onBook;
+    private LocalDate dateOfHold;
 
     private Hold(PlaceHold placeHold) {
         this.id = new HoldId(UUID.randomUUID());
         this.onBook = placeHold.inventoryNumber();
         this.dateOfHold = placeHold.dateOfHold();
+    }
+
+    public Hold() {
     }
 
     public static Hold placeHold(PlaceHold command) {

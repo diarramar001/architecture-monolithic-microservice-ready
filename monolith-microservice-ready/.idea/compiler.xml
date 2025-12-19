@@ -17,6 +17,7 @@
         <module name="ms-launcher" />
         <module name="borrow-domain" />
         <module name="common" />
+        <module name="identity-domain" />
         <module name="catalog-domain" />
         <module name="borrow-infrastructure" />
         <module name="catalog-infrastructure" />
@@ -33,6 +34,7 @@
       <module name="catalog-domain" options="-parameters" />
       <module name="catalog-infrastructure" options="-parameters" />
       <module name="common" options="-parameters" />
+      <module name="identity-domain" options="-parameters" />
       <module name="ms-launcher" options="-parameters" />
       <module name="private-rest-client" options="-parameters" />
     </option>

@@ -18,7 +18,7 @@ public class HoldDao {
     @Enumerated(EnumType.STRING)
     private HoldStatus status;
 
-    enum HoldStatus {
+    public enum HoldStatus {
         HOLDING, ACTIVE, COMPLETED
     }
 

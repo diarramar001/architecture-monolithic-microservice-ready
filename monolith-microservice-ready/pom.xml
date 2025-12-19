@@ -25,6 +25,7 @@
         <module>catalog/catalog-controller</module>
         <module>catalog/catalog-domain</module>
         <module>catalog/catalog-infrastructure</module>
+        <module>identity/identity-domain</module>
     </modules>
 
     <properties>

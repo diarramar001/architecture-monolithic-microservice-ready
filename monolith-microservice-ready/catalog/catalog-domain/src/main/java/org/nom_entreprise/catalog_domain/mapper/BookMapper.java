@@ -13,18 +13,21 @@ public interface BookMapper {
     BookDto toDto(CatalogBook catalogBook);
     CatalogBook toEntity(BookDto bookDto);
     
-    default Long map(CatalogBook.CatalogBookId value) {
+    default String map(CatalogBook.CatalogBookId value) {
         if (value == null || value.id() == null) {
             return null;
         }
-        return value.id().getLeastSignificantBits();
+        return value.id().toString();
     }
     
-    default CatalogBook.CatalogBookId map(Long value) {
-        if (value == null) {
+    default CatalogBook.CatalogBookId map(String value) {
+        if (value == null || value.isEmpty()) {
             return null;
         }
-        // Créer un UUID avec le Long comme bits les moins significatifs
-        return new CatalogBook.CatalogBookId(new UUID(0, value));
+        try {
+            return new CatalogBook.CatalogBookId(UUID.fromString(value));
+        } catch (IllegalArgumentException e) {
+            throw new IllegalArgumentException("Invalid UUID format: " + value, e);
+        }
     }
 }

@@ -8,6 +8,7 @@
     <file url="file://$PROJECT_DIR$/catalog/catalog-domain/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/catalog/catalog-infrastructure/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/identity/identity-domain/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ms-launcher/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/private-rest-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
