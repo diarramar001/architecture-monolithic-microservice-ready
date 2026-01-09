@@ -16,10 +16,10 @@
     </parent>
 
     <modules>
+        <module>ms-launcher</module>
         <module>shared/common</module>
         <module>shared/private-rest-client</module>
         <module>shared/keycloak-rest-client</module>
-        <module>ms-launcher</module>
         <module>borrow/borrow-controller</module>
         <module>borrow/borrow-domain</module>
         <module>borrow/borrow-infrastructure</module>
@@ -27,6 +27,7 @@
         <module>catalog/catalog-domain</module>
         <module>catalog/catalog-infrastructure</module>
         <module>identity/identity-domain</module>
+        <module>identity/identity-infrastructure</module>
     </modules>
 
     <properties>
